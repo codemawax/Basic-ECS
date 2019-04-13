@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{a704d6a3-fbb0-4080-9438-7cda6f053990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\engine">
+      <UniqueIdentifier>{8239adcd-5f81-4e0c-9d91-ff197551e719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\gameplay">
+      <UniqueIdentifier>{a95607e8-14f6-4698-a3fa-986d9689ba41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\graphics">
+      <UniqueIdentifier>{8ceb6742-15a4-4d9f-8491-677bac576cd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\engine\Component.cpp">
+      <Filter>source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="source\engine\Entity.cpp">
+      <Filter>source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="source\graphics\GraphicsComponent.cpp">
+      <Filter>source\graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Utils.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\Component.h">
+      <Filter>source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\Entity.h">
+      <Filter>source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\graphics\GraphicsComponent.h">
+      <Filter>source\graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
