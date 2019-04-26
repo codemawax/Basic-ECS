@@ -2,9 +2,8 @@
 
 #include <Utils.h>
 #include <engine/Component.h>
-#include "Renderable.h"
 
-class SpriteComponent : public Component, public Renderable
+class SpriteComponent : public Component
 {
 private:
     Image image;

@@ -13,8 +13,8 @@ public:
 
     Entity& CreateEntity();
 
-    void RegisterEntity(const Entity& entity);
-    void UnregisterEntity(const Entity& entity);
+    void RegisterEntityToSystems(const Entity& entity);
+    void UnregisterEntityToSystems(const Entity& entity);
 
 private:
     vector<unique_ptr<Entity>> entities;

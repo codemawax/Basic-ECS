@@ -27,8 +27,20 @@
     <ClCompile Include="source\engine\Entity.cpp">
       <Filter>source\engine</Filter>
     </ClCompile>
-    <ClCompile Include="source\graphics\GraphicsComponent.cpp">
+    <ClCompile Include="source\graphics\SpriteComponent.cpp">
       <Filter>source\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\engine\World.cpp">
+      <Filter>source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="source\engine\System.cpp">
+      <Filter>source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="source\graphics\RenderSystem.cpp">
+      <Filter>source\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\engine\EntityManager.cpp">
+      <Filter>source\engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -44,8 +56,20 @@
     <ClInclude Include="source\engine\Entity.h">
       <Filter>source\engine</Filter>
     </ClInclude>
-    <ClInclude Include="source\graphics\GraphicsComponent.h">
+    <ClInclude Include="source\graphics\SpriteComponent.h">
       <Filter>source\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\World.h">
+      <Filter>source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\System.h">
+      <Filter>source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\graphics\RenderSystem.h">
+      <Filter>source\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\EntityManager.h">
+      <Filter>source\engine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

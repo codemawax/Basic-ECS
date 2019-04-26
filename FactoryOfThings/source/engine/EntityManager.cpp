@@ -5,12 +5,12 @@ Entity& EntityManager::CreateEntity()
 
 }
 
-void EntityManager::RegisterEntity(const Entity& entity)
+void EntityManager::RegisterEntityToSystems(const Entity& entity)
 {
 
 }
 
-void EntityManager::UnregisterEntity(const Entity& entity)
+void EntityManager::UnregisterEntityToSystems(const Entity& entity)
 {
 
 }

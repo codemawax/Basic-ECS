@@ -22,14 +22,22 @@
     <ClCompile Include="source\Application.cpp" />
     <ClCompile Include="source\engine\Component.cpp" />
     <ClCompile Include="source\engine\Entity.cpp" />
-    <ClCompile Include="source\graphics\GraphicsComponent.cpp" />
+    <ClCompile Include="source\engine\EntityManager.cpp" />
+    <ClCompile Include="source\engine\System.cpp" />
+    <ClCompile Include="source\engine\World.cpp" />
+    <ClCompile Include="source\graphics\RenderSystem.cpp" />
+    <ClCompile Include="source\graphics\SpriteComponent.cpp" />
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Application.h" />
     <ClInclude Include="source\engine\Component.h" />
     <ClInclude Include="source\engine\Entity.h" />
-    <ClInclude Include="source\graphics\GraphicsComponent.h" />
+    <ClInclude Include="source\engine\EntityManager.h" />
+    <ClInclude Include="source\engine\System.h" />
+    <ClInclude Include="source\engine\World.h" />
+    <ClInclude Include="source\graphics\RenderSystem.h" />
+    <ClInclude Include="source\graphics\SpriteComponent.h" />
     <ClInclude Include="source\Utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
