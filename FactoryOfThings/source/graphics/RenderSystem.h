@@ -1,9 +1,8 @@
 #pragma once
 
-#include <Utils.h>
 #include <engine/System.h>
 
-class RenderSystem : public System
+class RenderSystem
 {
-    void Update() override;
+    //todo
 };

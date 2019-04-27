@@ -1,16 +1,36 @@
 #include "EntityManager.h"
 
-Entity& EntityManager::CreateEntity()
+namespace EntityComponentSystem
+{
+
+EntityManager::EntityManager()
 {
 
 }
 
-void EntityManager::RegisterEntityToSystems(const Entity& entity)
+EntityManager::~EntityManager()
 {
 
 }
 
-void EntityManager::UnregisterEntityToSystems(const Entity& entity)
+void EntityManager::CreateSystems()
 {
+
+}
+
+void EntityManager::Update()
+{
+
+}
+
+EntityID EntityManager::CreateEntity()
+{
+    return INVALID_ENTITY_ID;
+}
+
+void EntityManager::DestroyEntity()
+{
+
+}
 
 }

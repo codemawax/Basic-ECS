@@ -34,6 +34,8 @@
     <ClInclude Include="source\engine\Component.h" />
     <ClInclude Include="source\engine\Entity.h" />
     <ClInclude Include="source\engine\EntityManager.h" />
+    <ClInclude Include="source\engine\EntityManagerTypes.h" />
+    <ClInclude Include="source\engine\NonCopyable.h" />
     <ClInclude Include="source\engine\System.h" />
     <ClInclude Include="source\engine\World.h" />
     <ClInclude Include="source\graphics\RenderSystem.h" />

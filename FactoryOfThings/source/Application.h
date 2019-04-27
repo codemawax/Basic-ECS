@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Utils.h"
+#include <engine/EntityManager.h>
 
 namespace sf
 {
@@ -16,4 +17,5 @@ public:
 private:
     Clock clock;
     Time lastUpdateTime;
+    EntityComponentSystem::EntityManager entityManager;
 };

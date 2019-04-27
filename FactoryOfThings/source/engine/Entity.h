@@ -1,14 +1,11 @@
 #pragma once
 
-#include <Utils.h>
-
-class Component;
+namespace EntityComponentSystem
+{
 
 class Entity
 {
-public:
-    inline const vector<unique_ptr<Component>>& GetComponents() { return components; }
-
-private:
-    vector<unique_ptr<Component>> components;
+    //todo
 };
+
+}

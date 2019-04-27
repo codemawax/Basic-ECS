@@ -1,10 +1,8 @@
 #pragma once
 
-#include <Utils.h>
 #include <engine/Component.h>
 
-class SpriteComponent : public Component
+class SpriteComponent
 {
-private:
-    Image image;
+    //todo
 };

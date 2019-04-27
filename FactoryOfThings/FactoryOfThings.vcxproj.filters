@@ -71,5 +71,11 @@
     <ClInclude Include="source\engine\EntityManager.h">
       <Filter>source\engine</Filter>
     </ClInclude>
+    <ClInclude Include="source\engine\EntityManagerTypes.h">
+      <Filter>source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\NonCopyable.h">
+      <Filter>source\engine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
