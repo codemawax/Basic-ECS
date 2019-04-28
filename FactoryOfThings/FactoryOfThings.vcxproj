@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\Application.cpp" />
+    <ClCompile Include="source\engine\BaseSystem.cpp" />
     <ClCompile Include="source\engine\Component.cpp" />
     <ClCompile Include="source\engine\Entity.cpp" />
     <ClCompile Include="source\engine\EntityManager.cpp" />
@@ -31,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Application.h" />
+    <ClInclude Include="source\engine\BaseSystem.h" />
     <ClInclude Include="source\engine\Component.h" />
     <ClInclude Include="source\engine\Entity.h" />
     <ClInclude Include="source\engine\EntityManager.h" />

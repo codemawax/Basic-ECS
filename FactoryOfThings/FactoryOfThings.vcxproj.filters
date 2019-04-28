@@ -42,6 +42,9 @@
     <ClCompile Include="source\engine\EntityManager.cpp">
       <Filter>source\engine</Filter>
     </ClCompile>
+    <ClCompile Include="source\engine\BaseSystem.cpp">
+      <Filter>source\engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Utils.h">
@@ -75,6 +78,9 @@
       <Filter>source\engine</Filter>
     </ClInclude>
     <ClInclude Include="source\engine\NonCopyable.h">
+      <Filter>source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\engine\BaseSystem.h">
       <Filter>source\engine</Filter>
     </ClInclude>
   </ItemGroup>

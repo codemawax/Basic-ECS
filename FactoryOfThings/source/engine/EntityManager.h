@@ -1,12 +1,13 @@
 #pragma once
 
-#include "Component.h"
-#include "Entity.h"
-#include "System.h"
-#include "EntityManagerTypes.h"
-#include "NonCopyable.h"
 #include <vector>
 #include <unordered_map>
+
+#include "BaseSystem.h"
+#include "Component.h"
+#include "Entity.h"
+#include "EntityManagerTypes.h"
+#include "NonCopyable.h"
 
 namespace EntityComponentSystem
 {
@@ -26,7 +27,7 @@ public:
 private:
     using Entities = std::unordered_map<EntityID, Entity>;
     using Components = std::vector<std::vector<Component*>>;
-    using Systems = std::vector<System>;
+    using Systems = std::vector<BaseSystem>;
 
     Entities entities;
     Components components;
