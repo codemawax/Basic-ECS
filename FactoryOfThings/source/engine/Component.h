@@ -13,13 +13,11 @@ public:
     virtual ~Component() = default;
     virtual bool Init(/*data*/) = 0; //todo
 
-private:
+    EntityID GetEntityID() const { return entityID; }
     void SetEntityID(EntityID id) { entityID = id; }
-    EntityID GetEntityID() { return entityID; }
 
 private:
     EntityID entityID;
-
 };
 
 }

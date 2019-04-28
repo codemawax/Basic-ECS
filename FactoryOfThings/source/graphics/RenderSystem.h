@@ -2,7 +2,9 @@
 
 #include <engine/System.h>
 
-class RenderSystem
+#include "SpriteComponent.h"
+
+class RenderSystem : public EntityComponentSystem::System<SpriteComponent>
 {
-    //todo
+    void Update() override;
 };

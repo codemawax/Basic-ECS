@@ -44,7 +44,7 @@ void System<Components...>::OnEntityCreated(const Entity& entity)
             ++matchingComponents;
             if (matchingComponents == sizeof...(Components))
             {
-                components.emplace_back(std::move(componentTuple));
+                components.emplace_back(std::move(resultComponentTuple));
                 entityIDToComponentIndexMap.emplace(entity.GetID(), components.size() - 1);
                 break; // We have found the matching components
             }
