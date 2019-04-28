@@ -1,5 +1,6 @@
 #pragma once
 
+#include <assert.h>
 #include <unordered_map>
 
 #include "BaseSystem.h"
@@ -62,11 +63,11 @@ void System<Components...>::OnEntityDestroyed(const EntityID entityID)
         components[findIt->second] = std::move(components.back());
         components.pop_back();
 
-        // Retrieve the moved component tuple
-        const auto* movedTuple = std::get<0>(components[findIt->second]);
+        // Retrieve a component from the moved tuple
+        const auto* movedComponent = std::get<0>(components[findIt->second]);
 
         // Update the index
-        auto movedTupleIt = entityIDToComponentIndexMap.find(movedTuple->GetEntityID());
+        auto movedTupleIt = entityIDToComponentIndexMap.find(movedComponent->GetEntityID());
         assert(movedTupleIt != entityIDToComponentIndexMap.end());
         movedTupleIt->second = findIt->second;
     }
